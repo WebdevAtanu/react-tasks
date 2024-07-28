@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tillana:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+#navbar {
+  h2 {
+    font-family: "Bangers", system-ui;
+    letter-spacing:3px;
+  }
+
+}
+
+h1 {
+  font-family: "Rowdies", sans-serif;
+}
+
+#main {
+  backdrop-filter: blur(25px);
+  font-family: "Tillana", system-ui;
+
+  td {
+    padding: 0.5rem;
+    border: 0.5px solid;
+  }
+
+}
+
+#search {
+  input,
+  select {
+    font-family: "Tillana", system-ui;
+  }
+
+}
+
+#random {
+  font-family: "Tillana", system-ui;
+}
