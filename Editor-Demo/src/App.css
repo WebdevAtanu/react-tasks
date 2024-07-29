@@ -1,0 +1,44 @@
+#main {
+	display: flex;
+	gap: 1rem;
+	align-items: flex-start;
+
+	#t1 {
+		border: 1px solid;
+		padding: 0.5rem;
+
+		input[type=button] {
+			width: 100%;
+			margin-top: 1rem;
+			cursor: pointer;
+		}
+
+	}
+
+	#t2 {
+		border-collapse: collapse;
+		width: 100%;
+
+		th {
+			border: 1px solid;
+			text-align: left;
+		}
+
+		td {
+			border: 1px solid;
+		}
+
+		button {
+			width: 100%;
+			border: none;
+			cursor: pointer;
+
+			&:hover {
+				background: #80808075;
+			}
+
+		}
+
+	}
+
+}

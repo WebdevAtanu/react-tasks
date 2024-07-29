@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "PT Serif", serif;
+  user-select: none;
+}
+
+h1,
+h3 {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+#div {
+  display: flex;
+  justify-content: center;
+
+  #t1 {
+    border: 0.5px solid;
+    padding: 0.5rem;
+
+    tr td {
+      padding: 0.2rem;
+    }
+
+    input,
+    textarea {
+      padding: 0.5rem;
+    }
+
+    textarea {
+      resize: none;
+      width: 90%;
+    }
+
+    p {
+      color: #bd0a0a;
+      text-align: center;
+    }
+
+    button {
+      background: none;
+      padding: 0.5rem;
+      width: 100%;
+      cursor: pointer;
+      border: 0.5px solid;
+      transition: all 0.3s;
+      font-weight: bold;
+
+      &:hover {
+        background: #8BC34A;
+      }
+
+    }
+
+  }
+
+}
+
+#t2 {
+  min-width: calc(90% - 0.5rem);
+  padding: 0.5rem;
+  margin: 2rem auto;
+  border-collapse: collapse;
+  border: 0.5px solid;
+
+  & tr:nth-child(1) {
+    background-color: #3f51b561;
+  }
+
+  .active {
+    background-color: #f1d9135c !important;
+  }
+
+  td,
+  th {
+    border: 0.5px solid;
+    padding: 0.2rem;
+  }
+
+  th {
+    text-align: left;
+  }
+
+  button {
+    width: 100%;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0.2rem;
+    font-weight: bold;
+    transition: all 0.3s;
+  }
+
+  #edit:hover {
+    background: lightskyblue;
+  }
+
+  #delete:hover {
+    background: indianred;
+  }
+
+}
